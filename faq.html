@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta -->
+    <title>A S M Media - Digital Signage Solutions</title>  <meta name="description" content="A S M Media - Your trusted source for products, sales, and media solutions." />
+  <meta name="keywords" content="A S M Media, products, sales, media company" />
+  <meta name="author" content="A S M Media" />
+  
+  <!-- Favicon -->
+   <link rel="Icon" href="/assets/favicon.png" type="image/x-icon">
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="A S M Media BD" />
+  <meta property="og:description" content="Discover ASM Media's products, sales points, and services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://asmmediabd.com" />
+  <meta property="og:image" content="https://asmmediabd.com/assets/logo.png" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+    <!-- aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body class="font-[Roboto] bg-gradient-to-br from-blue-50 to-green-50 text-gray-900 flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+<header class="border-b border-gray-200 sticky top-0 bg-white z-50">
+  <nav class="max-w-6xl mx-auto py-4 px-4 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="/index.html" class="flex items-center space-x-2">
+      <img class="w-12 h-auto" src="./assets/logo.png" alt="ASM Media logo" />
+      <span class="text-2xl font-extrabold text-[#2b038f]">A S M MEDIA</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden lg:flex space-x-6 font-medium">
+      <li><a href="/index.html" class="hover:text-[#72bf41] transition-colors duration-300">Home</a></li>
+      <li><a href="/products.html" class="hover:text-[#72bf41] transition-colors duration-300">Products</a></li>
+      <li><a href="/about-us.html" class="hover:text-[#72bf41] transition-colors duration-300">About Us</a></li>
+      <li><a href="/faq.html" class="text-[#72bf41]">FAQ</a></li>
+      <li><a href="/contact-us.html" class="hover:text-[#72bf41] transition-colors duration-300">Contact Us</a></li>
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="lg:hidden p-2 border border-gray-200 rounded">
+      ☰ Menu
+    </button>
+  </nav>
+
+  <!-- Mobile Dropdown -->
+  <ul id="menu" class="hidden flex-col space-y-2 bg-white p-4 lg:hidden">
+    <li><a href="/index.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">Home</a></li>
+    <li><a href="/products.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">Products</a></li>
+    <li><a href="/about-us.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">About Us</a></li>
+    <li><a href="/faq.html" class="block font-medium text-[#72bf41]">FAQ</a></li>
+    <li><a href="/contact-us.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">Contact Us</a></li>
+  </ul>
+</header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-6xl mx-auto px-2 lg:px-0 py-10">
+<section id="faq" class="faq section-bg py-5 bg-white rounded-lg px-0 lg:px-4">
+  <div class="container mx-auto px-4" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-center mb-10 text-gray-800">Frequently Asked Questions</h2>
+
+    <div class="join join-vertical w-full max-w-6xl mx-auto">
+      <!-- FAQ 1 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up">
+        <input type="radio" name="faq-accordion"  />
+        <div class="collapse-title text-lg font-medium ">
+          How is the pricing determined for your products?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Our pricing is based on various factors, including production costs, materials, and market research. 
+            We aim to offer competitive prices while maintaining the quality of our products.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="100">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Do you offer discounts for bulk orders?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Yes, we do! For bulk or wholesale orders, please contact our sales team at 
+            <a href="mailto:asmmedia00@gmail.com" class="text-blue-600 underline">asmmedia00@gmail.com</a> 
+            to discuss specific pricing options and discounts available.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="200">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Are there any additional fees beyond the listed price?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Our listed prices include all standard fees. However, there may be additional charges for optional add-ons, 
+            customization, or expedited shipping. Please review your order summary for a detailed breakdown of costs.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="300">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Is there a price match guarantee?
+        </div>
+        <div class="collapse-content">
+          <p>
+            We strive to provide competitive pricing. If you find a lower price for the same product from a reputable competitor, 
+            please contact us, and we'll do our best to match or beat it.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="400">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Do you offer any warranties or guarantees with your products?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Yes, many of our products come with a manufacturer’s warranty or a satisfaction guarantee. 
+            Details are provided in the product description or can be requested from our support team.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="500">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          What payment methods do you accept?
+        </div>
+        <div class="collapse-content">
+          <p>
+            We accept major credit/debit cards, mobile banking, and online payment gateways. 
+            Payment options are displayed during checkout for your convenience.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="500">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Can I track my order after purchase?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Yes! Once your order has been processed and shipped, you will receive a tracking number by email or SMS 
+            so you can monitor its status in real-time.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="500">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          What is your return and refund policy?
+        </div>
+        <div class="collapse-content">
+          <p>
+            We accept returns within 7 days of purchase for most products, provided they are unused and in original packaging. 
+            Refunds are processed within 5–7 business days after inspection.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="500">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          How can I contact customer support?
+        </div>
+        <div class="collapse-content">
+          <p>
+            You can reach us via our <a href="/contactus.html" class="text-blue-600 underline">Contact Us</a> page, 
+            by email at <a href="mailto:asmmedia00@gmail.com" class="text-blue-600 underline">asmmedia00@gmail.com</a>, 
+            or through our social media channels.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 10 -->
+      <div class="collapse collapse-arrow join-item border border-base-300 hover:bg-base-200 transition" data-aos="fade-up" data-aos-delay="600">
+        <input type="radio" name="faq-accordion" />
+        <div class="collapse-title text-lg font-medium ">
+          Do you ship outside of Bangladesh?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Currently, we only ship within Bangladesh. However, we are working on expanding our services internationally soon.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-10">
+        
+        <!-- Company Details -->
+        <div class="flex flex-col items-center justify-center text-center">
+          <h1 class="text-4xl font-semibold text-white mb-2">A S M Media</h1>
+          <address class="not-italic">
+            3, PURANA PALTAN, DHAKA-1000 <br>
+            Email: <a href="mailto:asmmedia00@gmail.com" class="hover:underline">asmmedia00@gmail.com</a><br>
+            Phone: <a href="tel: 01718-029198" class="hover:underline"> 01718-029198</a>,
+<a href="tel:  01712-570475" class="hover:underline"> 01712-570475</a>
+          </address>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-700 text-center py-4 text-sm">
+        <p>&copy; 2025 A S M Media. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Aos Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800 // animation duration in milliseconds
+    });
+</script>
+
+    <!-- script -->
+  <script src="script.js"></script>
+</body>
+</html>

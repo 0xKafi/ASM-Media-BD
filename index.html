@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta -->
+  <title>A S M Media - Digital Signage Solutions</title>  
+  <meta name="description" content="A S M Media - Your trusted source for products, sales, and media solutions." />
+  <meta name="keywords" content="A S M Media, products, sales, media company" />
+  <meta name="author" content="A S M Media" />
+
+  <!-- Favicon -->
+  <link rel="Icon" href="/assets/favicon.png" type="image/x-icon">
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="A S M Media" />
+  <meta property="og:description" content="Discover ASM Media's Products, Sales points, and services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://asmmediabd.com" />
+  <meta property="og:image" content="https://asmmediabd.com/assets/logo.png" />
+  <link rel="canonical" href="https://asmmediabd.com/" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="font-[Roboto] bg-gradient-to-br from-blue-50 to-green-50 text-gray-900 flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+<header class="border-b border-gray-200 sticky top-0 bg-white z-50">
+  <nav class="max-w-6xl mx-auto py-4 px-4 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="/index.html" class="flex items-center space-x-2">
+      <img class="w-12 h-auto" src="./assets/logo.png" alt="ASM Media BD company logo" />
+      <span class="text-2xl font-extrabold text-[#2b038f]">A S M MEDIA</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden lg:flex space-x-6 font-medium">
+      <li><a href="/index.html" class="text-[#72bf41] transition-colors duration-300">Home</a></li>
+      <li><a href="/products.html" class="hover:text-[#72bf41] transition-colors duration-300">Products</a></li>
+      <li><a href="/about-us.html" class="hover:text-[#72bf41] transition-colors duration-300">About Us</a></li>
+      <li><a href="/faq.html" class="hover:text-[#72bf41] transition-colors duration-300">FAQ</a></li>
+      <li><a href="/contact-us.html" class="hover:text-[#72bf41] transition-colors duration-300">Contact Us</a></li>
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="lg:hidden p-2 border border-gray-200 rounded">
+      ☰ Menu
+    </button>
+  </nav>
+
+  <!-- Mobile Dropdown -->
+  <ul id="menu" class="hidden flex-col space-y-2 bg-white p-4 lg:hidden">
+    <li><a href="/index.html" class="block font-medium text-[#72bf41] transition-colors duration-300">Home</a></li>
+    <li><a href="/products.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">Products</a></li>
+    <li><a href="/about-us.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">About Us</a></li>
+    <li><a href="/faq.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">FAQ</a></li>
+    <li><a href="/contact-us.html" class="block font-medium hover:text-[#72bf41] transition-colors duration-300">Contact Us</a></li>
+  </ul>
+</header>
+
+  <!-- Main Content -->
+<main class="flex-1 pb-10">
+  <!-- hero section -->
+<section class="relative">
+  <!-- Swiper -->
+  <div class="swiper w-full h-[800px] lg:h-[650px] ">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+    <div class="swiper-slide relative text-white overflow-hidden">
+      <div class="absolute inset-0 bg-[url('/assets/bg-1.png')] bg-cover bg-center blur-[3px] scale-105"></div>
+      <div class="absolute inset-0 bg-black/40"></div>
+
+        <div class="relative z-10 h-full max-w-6xl mx-auto">
+          <div class="flex flex-col lg:flex-row items-center justify-center h-full">
+              <div class="mt-10 mx-4 flex flex-col items-center text-center lg:items-start lg:text-start">
+                  <h1 class="text-4xl lg:text-6xl font-bold text-white">
+                    We Provide <br>
+                    <span class="text-white">All kinds of Digital Sign Materials</span>
+                  </h1>
+                  <p class="mt-4 text-gray-200 text-sm lg:text-lg">
+                    Your one-stop solution for premium digital signage raw materials at the best prices.</p>
+                  <div class="mt-8 flex gap-4">
+                    <a href="#products"
+                      class="px-4 py-3 text-sm h-11 rounded-lg text-white bg-[#72bf41] font-semibold shadow hover:opacity-90 transition"
+                      aria-label="Check our products">
+                      Our Products
+                    </a>
+                    <a href="/contact-us.html"
+                      class="px-4 py-3 text-sm h-11 rounded-lg text-white bg-[#2b038f] font-semibold shadow hover:opacity-90 transition"
+                      aria-label="Contact us">
+                      Contact Us
+                    </a>
+                  </div>
+              </div>
+              <!-- image -->
+              <div class="relative">
+                <img class="w-80 lg:w-120" src="/assets/hero-image.png" alt="ASM Media proprietor Majadul Islam portrait">
+                <div class="bg-[#72bf41] text-white w-50 lg:w-65 rounded absolute -bottom-2 left-13 lg:-bottom-5 lg:left-13 z-20 p-3">
+                  <h1 class="text-sm lg:text-xl text-center font-bold">
+                  A S M MAJADUL ISLAM
+                  </h1>
+                  <h2 class="text-xs lg:text-lg text-center font-medium lg:mt-1">
+                    Proprietor  
+                  </h2>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide relative flex items-center justify-center text-center text-white overflow-hidden">
+        <div class="absolute inset-0 bg-[url('/assets/bg-2.png')] bg-cover bg-center blur-[3px] scale-105"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 px-4 flex flex-col items-center justify-center h-full">
+          <h1 class="text-5xl lg:text-7xl font-bold">Quality Products</h1>
+          <p class="mt-4 text-base md:text-lg lg:text-xl">We provide premium signage raw materials</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide relative flex items-center justify-center text-center text-white overflow-hidden">
+        <div class="absolute inset-0 bg-[url('/assets/bg-3.png')] bg-cover bg-center blur-[3px] scale-105"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 px-4  flex flex-col items-center justify-center h-full">
+          <h1 class="text-5xl lg:text-7xl font-bold">Contact Us</h1>
+          <p class="mt-4 text-base md:text-lg lg:text-xl">Get in touch for bulk orders and services</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+<!-- Product Section -->
+ <section id="products" class="max-w-6xl lg:mx-auto mx-4 mb-24">
+  <header class="text-center mb-10 mt-20">
+    <h1 class="text-4xl font-bold text-gray-800">Our Products</h1>
+    <p class="mt-4 text-lg text-gray-600">
+      Explore our wide range of printing materials and supplies to meet your business needs.
+    </p>
+  </header>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">    
+      <!-- Product 1 -->
+      <article data-aos="zoom-in"  class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/frontlit.png" alt="Frontlit PVC Flex Banner by ASM Media for outdoor advertising">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">Frontlit PVC Flex Banner</h2>
+        <p class="text-sm text-gray-600 mb-2">
+  Frontlit pvc flex banner is a type of banner material commonly used for outdoor advertising, signage, and display purposes. It is made from PVC (Polyvinyl Chloride) material, which is a durable and weather-resistant plastic. PVC Flex Banners are known for their flexibility, which allows them to be easily rolled up, transported, and installed
+        </p>
+        <a href="#myModal1" class="underline">Read More</a>
+      </article>
+
+      <!-- Product 2 -->
+      <article data-aos="zoom-in" class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/black.jpg" alt="Black Back PVC Flex Banner by ASM Media for billboards and signage">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">Black Back PVC Flex Banner</h2>
+        <p class="text-sm text-gray-600 mb-2">
+          Black PVC Flex Banner refers to a specific type of PVC banner material that is manufactured with a black backing layer. This backing layer serves several purposes...
+        </p>
+        <a href="#myModal2" class="underline">Read More</a>
+      </article>
+
+      <!-- Product 3 -->
+      <article data-aos="zoom-in" class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/self.jpg" alt="Self Adhesive Vinyl by ASM Media for signage and decoration">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">Self Adhesive Vinyl</h2>
+        <p class="text-sm text-gray-600">Self-adhesive vinyl is a versatile material used for signage, advertising, and decoration...</p>
+        <a href="#myModal3" class="underline">Read More</a>
+      </article>
+
+      <!-- Product 4 -->
+      <article  data-aos="zoom-in" class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/frosted.jpg" alt="Frosted Film by ASM Media for privacy and decorative glass design">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">Frosted Film</h2>
+        <p class="text-sm text-gray-600">Ideal for privacy and stylish glass decoration in offices, homes, and commercial spaces.</p>
+      </article>
+
+      <!-- Product 5 -->
+      <article  data-aos="zoom-in" class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/backlit.jpg" alt="Backlit Flex Banner by ASM Media for illuminated signage">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">BACKLIT FLEX BANNER</h2>
+        <p class="text-sm text-gray-600">Durable backlit material designed for glowing and eye-catching illuminated signs.</p>
+        <a href="#myModal4" class="underline">Read More</a>
+      </article>
+
+      <!-- Product 6 -->
+      <article  data-aos="zoom-in" class="border border-gray-200 bg-white hover:shadow-md transition duration-300 p-6 rounded-lg">
+        <img class="h-60 w-full object-cover rounded-md" src="/assets/3d-lamination.jpg" alt="3D Lamination service by ASM Media for premium print finishing">
+        <h2 class="font-semibold text-xl my-3 text-gray-800">3D Lamination</h2>
+        <p class="text-sm text-gray-600">High-quality lamination finish that gives your prints a professional 3D effect.</p>
+      </article>
+    </section>
+  </section>
+
+  <section class="max-w-6xl lg:mx-auto mx-4 mb-24">
+    <h1 class="text-4xl font-bold text-center mb-4">Company Achievement & Gathering</h1>
+    <p class="mt-4 text-lg text-gray-600 text-center mb-10">Celebrating milestones together and building stronger connections.</p>
+
+    <div class="columns-2 md:columns-3 lg:columns-3 gap-4 space-y-4">
+      
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/achivement-1.jpg" 
+            alt="ASM Media BD team receiving company achievement award in Dhaka" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/achivement-2.jpg" 
+            alt="ASM Media BD group photo at company celebration event" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/achivement-3.jpg" 
+            alt="ASM Media staff award recognition program in Dhaka" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/comapy-1.jpg" 
+            alt="ASM Media BD company team gathering in office" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/company-2.jpg" 
+            alt="ASM Media employees at Dhaka company event" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/company-3.jpg" 
+            alt="ASM Media BD staff workshop and corporate meeting" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/company-4.jpg" 
+            alt="ASM Media BD corporate celebration and team bonding event" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/company-5.jpg" 
+            alt="ASM Media BD staff photo at annual achievement celebration" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+
+      <figure class="mb-4 break-inside-avoid">
+        <img src="/assets/company-6.jpg" 
+            alt="ASM Media BD team event celebrating milestones" 
+            loading="lazy" 
+            class="w-full rounded-xl shadow hover:opacity-90 transition">
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-6xl mx-auto px-4 py-10">
+        
+        <!-- Company Details -->
+        <div class="flex flex-col items-center justify-center text-center">
+          <h1 class="text-4xl font-semibold text-white mb-2">A S M Media</h1>
+          <address class="not-italic">
+            3, PURANA PALTAN, DHAKA-1000 <br>
+            Email: <a href="mailto:asmmedia00@gmail.com" class="hover:underline">asmmedia00@gmail.com</a><br>
+            Phone: <a href="tel: 01718-029198" class="hover:underline"> 01718-029198</a>,
+<a href="tel:  01712-570475" class="hover:underline"> 01712-570475</a>
+          </address>
+          <p class="mt-1 text-sm text-gray-400">
+            A S M Media is a trusted supplier of digital signage materials and printing solutions in Bangladesh.
+          </p>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-700 text-center py-4 text-sm">
+        <p>&copy; 2025 A S M Media. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Swiper Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+    <!-- AOS Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000 // animation duration in milliseconds
+    });
+</script>
+    <!-- script -->
+  <script src="script.js"></script>
+</body>
+</html>
